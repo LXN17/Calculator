@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.resultString {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.calculatorBtn {
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.clear {
+  font-size: 20px;
+}
